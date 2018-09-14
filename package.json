@@ -1,0 +1,34 @@
+{
+  "name": "clientskeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youraccountant/clientskeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youraccountant/clientskeleton/issues"
+  },
+  "homepage": "https://github.com/youraccountant/clientskeleton#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "jsdom": "^12.0.0",
+    "lodash": "^4.17.11",
+    "mustache": "^2.3.2"
+  }
+}
